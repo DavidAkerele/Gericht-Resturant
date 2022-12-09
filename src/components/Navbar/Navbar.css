@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     z-index: 2000;
+
 }
 
 .app__navbar-logo{
@@ -122,6 +123,7 @@
 @media screen and (max-width: 650px){
     .app__navbar{
         padding: 1rem;
+        width: 100%;
     }
 
     .app__navbar-login{
@@ -133,4 +135,14 @@
     }
 
 
+}
+
+@media screen and (max-width: 280px){
+    .app__navbar{
+        width: 100%;
+    }
+
+    .app__header h1{
+        font-size: 55px;
+    }
 }
