@@ -40,7 +40,7 @@ const Footer = () => (
     </div>
     <div className="footer__copyright">
       <p className="p__opensans">2021 Gerícht. All Rights reserved.</p>
-      <h1 className="app__footer-headtext">THE PANDEMIC!!!</h1>
+      <!--<h1 className="app__footer-headtext">THE PANDEMIC!!!</h1>-->
     </div>
   </div>
 );
